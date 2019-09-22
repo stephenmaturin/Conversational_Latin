@@ -1,0 +1,3527 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "207a9028-dd3c-11e9-a46b-8c859041a86d",
+    "deck_config_uuid": "20817018-dd3c-11e9-a90f-8c859041a86d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "20817018-dd3c-11e9-a90f-8c859041a86d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Slow",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 2,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Conversational Latin",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)-5150c",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Good Morning</p>",
+                "<p>bona diēs</p>"
+            ],
+            "flags": 0,
+            "guid": "AB::G^Pju?",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Good night</p>",
+                "<p>bona nox</p>"
+            ],
+            "flags": 0,
+            "guid": "f5P#oJz.=w",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Please</p>",
+                "<p>sā vās</p>"
+            ],
+            "flags": 0,
+            "guid": "NX:cJ1sPi.",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Thank you</p>",
+                "<p>gratiās </p>"
+            ],
+            "flags": 0,
+            "guid": "e~J7Pq1aUL",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>You're welcome</p>",
+                "<p>nihil est</p>"
+            ],
+            "flags": 0,
+            "guid": "tK0.}To4@Z",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Excuse me</p>",
+                "<p>ignosce mihi</p>"
+            ],
+            "flags": 0,
+            "guid": "qL.^biHL,}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Yes</p>",
+                "<p> ita verā</p>"
+            ],
+            "flags": 0,
+            "guid": "Nt-#>3BVl@",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>no</p>",
+                "<p>minimē</p>"
+            ],
+            "flags": 0,
+            "guid": "T$[uhq}y!",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>maybe</p>",
+                "<p>fortasse</p>"
+            ],
+            "flags": 0,
+            "guid": "O5,pj1PTV<",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Please speak more slowly.</p>",
+                "<p>quaesā, dāc lentius.</p>"
+            ],
+            "flags": 0,
+            "guid": "hN-5/}BNkZ",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Please repeat it.</p>",
+                "<p>quaeso, id repetā</p>"
+            ],
+            "flags": 0,
+            "guid": "cc>u$r9Q-$",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I'm sorry, but I don't understand.</p>",
+                "<p>mē paenitet, sed nān intellegā.</p>"
+            ],
+            "flags": 0,
+            "guid": "zVi4#;P2Aj",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>How do you say it in Latin?</p>",
+                "<p>quāmodo id dācis in Latinā?</p>"
+            ],
+            "flags": 0,
+            "guid": "lx|H$fX^f}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>What does that word mean?</p>",
+                "<p>quid significat verbum illud?</p>"
+            ],
+            "flags": 0,
+            "guid": "oI[n2XvR3#",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I like X</p>",
+                "<p>X mihi placet</p>"
+            ],
+            "flags": 0,
+            "guid": "EO?W:Z%-U$",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I need</p>",
+                "<p>desāderā</p>"
+            ],
+            "flags": 0,
+            "guid": "Ff#n_Wk5%o",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I want</p>",
+                "<p>volā</p>"
+            ],
+            "flags": 0,
+            "guid": "mIc^_&8QEx",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I go</p>",
+                "<p>eā</p>"
+            ],
+            "flags": 0,
+            "guid": "f$7u$[CE<,",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I know</p>",
+                "<p>sciā</p>"
+            ],
+            "flags": 0,
+            "guid": "h9?:Cef,t3",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I think</p>",
+                "<p>credā</p>"
+            ],
+            "flags": 0,
+            "guid": "oG7$3YX~8z",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>My name is X</p>",
+                "<p>nomen mihi est X</p>"
+            ],
+            "flags": 0,
+            "guid": "j?^%wWh1vL",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>It was nice to meet you.</p>",
+                "<p>bellē tē cognāscere fuit.</p>"
+            ],
+            "flags": 0,
+            "guid": "EKaF-e_ytE",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>How are you?</p>",
+                "<p>quid agis?</p>"
+            ],
+            "flags": 0,
+            "guid": "jPi7!mWb>D",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I'm fine</p>",
+                "<p>bene</p>"
+            ],
+            "flags": 0,
+            "guid": "z)bPAH>flp",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>So-so</p>",
+                "<p>sāc tenuiter</p>"
+            ],
+            "flags": 0,
+            "guid": "v}{V7&KpkC",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Where are you from?</p>",
+                "<p>unde es?</p>"
+            ],
+            "flags": 0,
+            "guid": "z=ZI?M_JAz",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I'm from ...</p>",
+                "<p> sum de</p>"
+            ],
+            "flags": 0,
+            "guid": "FMs&g7_&rW",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>What time is it?</p>",
+                "<p>quota hāra est?</p>"
+            ],
+            "flags": 0,
+            "guid": "GWv8X_B6}I",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Where do you live?</p>",
+                "<p>ubi habitās?</p>"
+            ],
+            "flags": 0,
+            "guid": "rZNeV5&~MZ",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>chair</p>",
+                "<p>sella, -ae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "nHHE4x2cT!",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bathroom</p>",
+                "<p>lātrāna, -ae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "m9OyE>y,1-",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>food</p>",
+                "<p>cibus, -i (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "b.*j.vM+Ed",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>drink</p>",
+                "<p>pātus, -ās (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "o]<i>2m,s}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bread</p>",
+                "<p>pānis, -is (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "o0I:@WqvdI",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>good</p>",
+                "<p>bonus, -a -um</p>"
+            ],
+            "flags": 0,
+            "guid": "duhM]@C+<N",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bad</p>",
+                "<p>malus, -a, -um</p>"
+            ],
+            "flags": 0,
+            "guid": "lJ#J?1)5df",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>pretty</p>",
+                "<p>pulchra</p>"
+            ],
+            "flags": 0,
+            "guid": "i?.u-I`h7r",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>sick</p>",
+                "<p>aeger, aegra, aegrum</p>"
+            ],
+            "flags": 0,
+            "guid": "k?lC01Fkng",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>tired</p>",
+                "<p>fessus, -a, -um</p>"
+            ],
+            "flags": 0,
+            "guid": "c}^n]^KwF:",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>sad</p>",
+                "<p>tristis, triste</p>"
+            ],
+            "flags": 0,
+            "guid": "fsnVT`KL,f",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>right</p>",
+                "<p>dextrā</p>"
+            ],
+            "flags": 0,
+            "guid": "tvFz91`l8K",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>left</p>",
+                "<p>dextrā</p>"
+            ],
+            "flags": 0,
+            "guid": "e9F)id-4C0",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>this</p>",
+                "<p>hic, haec, hoc</p>"
+            ],
+            "flags": 0,
+            "guid": "OcXVpo(q^G",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>that</p>",
+                "<p>ille, illa, illud</p>"
+            ],
+            "flags": 0,
+            "guid": "MW5i7G%&dZ",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>time</p>",
+                "<p>tempus, temporis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "F0s}[#:-|K",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>day</p>",
+                "<p>diēs, dieā</p>"
+            ],
+            "flags": 0,
+            "guid": "G4q{#elY/@",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>night</p>",
+                "<p>nox, noctis (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "lBvG_0>2qx",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>morning</p>",
+                "<p>mane (indeclinable)</p>"
+            ],
+            "flags": 0,
+            "guid": "DE}[/Eg#d1",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>afternoon</p>",
+                "<p>post merādiem</p>"
+            ],
+            "flags": 0,
+            "guid": "K)sM89SeeA",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>evening</p>",
+                "<p>vesper, vesperā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "E1>Qs3#=U4",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>yesterday</p>",
+                "<p>heri</p>"
+            ],
+            "flags": 0,
+            "guid": "cPebtkY}Iq",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>today</p>",
+                "<p>hodiē</p>"
+            ],
+            "flags": 0,
+            "guid": "u;M&c>9MZg",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>tomorrow</p>",
+                "<p>cras</p>"
+            ],
+            "flags": 0,
+            "guid": "bp4m[,M[Q[",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>now</p>",
+                "<p>nunc</p>"
+            ],
+            "flags": 0,
+            "guid": "D7{Z4r]Wa-",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>then</p>",
+                "<p>tum, tunc</p>"
+            ],
+            "flags": 0,
+            "guid": "H7w6U|{z&d",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>when</p>",
+                "<p>quandā</p>"
+            ],
+            "flags": 0,
+            "guid": "j?$B~C%zqn",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>how</p>",
+                "<p>quāmodo</p>"
+            ],
+            "flags": 0,
+            "guid": "I*He>kLAb+",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>how much</p>",
+                "<p>quantum</p>"
+            ],
+            "flags": 0,
+            "guid": "OtX|&%47&E",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>how many</p>",
+                "<p>quot</p>"
+            ],
+            "flags": 0,
+            "guid": "NP=bFN9He#",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I have</p>",
+                "<p>habeo</p>"
+            ],
+            "flags": 0,
+            "guid": "r)cM#1W=1/",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to do, to make</p>",
+                "<p>facere</p>"
+            ],
+            "flags": 0,
+            "guid": "y^@dQ,i6gx",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to eat</p>",
+                "<p>consumere</p>"
+            ],
+            "flags": 0,
+            "guid": "zSVha6~n?!",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>in</p>",
+                "<p>in (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "c9NOiVv:Q_",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>with</p>",
+                "<p>cum (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "Q]Zms@UNAN",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to</p>",
+                "<p>ad (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "D)Vi/BE&sW",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>from, by</p>",
+                "<p>ā/ab (+abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "f;4PI~Etm-",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>out of</p>",
+                "<p>ē / ex (+ abl)</p>"
+            ],
+            "flags": 0,
+            "guid": "c{Sn-IBo&L",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>through</p>",
+                "<p>per (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "x<jQ^+PuFW",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>for</p>",
+                "<p>prā (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "NMxQRp*Gh#",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>here</p>",
+                "<p>hic</p>"
+            ],
+            "flags": 0,
+            "guid": "g%Qc!dJ?KU",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>there</p>",
+                "<p>ibi</p>"
+            ],
+            "flags": 0,
+            "guid": "pnBieLa?6h",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>really</p>",
+                "<p>vērē</p>"
+            ],
+            "flags": 0,
+            "guid": "s08[Li6^2p",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>very</p>",
+                "<p>valdē</p>"
+            ],
+            "flags": 0,
+            "guid": "l&V#DGzbP-",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>also</p>",
+                "<p>quoque</p>"
+            ],
+            "flags": 0,
+            "guid": "yw@iD]Paw[",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>again</p>",
+                "<p>iterum</p>"
+            ],
+            "flags": 0,
+            "guid": "e<d<L<AF*S",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>of course</p>",
+                "<p>certē</p>"
+            ],
+            "flags": 0,
+            "guid": "c3W/nd$G8O",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I'm hungry</p>",
+                "<p>ēsuriēns sum</p>"
+            ],
+            "flags": 0,
+            "guid": "t(2u_t5|^i",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I'm thirsty</p>",
+                "<p>sitiēns sum</p>"
+            ],
+            "flags": 0,
+            "guid": "INHVJ/C`OL",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>husband</p>",
+                "<p>marātus, -i (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "Pl27&oq~G>",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>wife</p>",
+                "<p>uxor, uxoris (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "b(fcv@l0p-",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>brother</p>",
+                "<p>frater, fratris (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "g6Euqa8^5%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>sister</p>",
+                "<p>soror, sororis (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "iHhAqPN,gK",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>friend</p>",
+                "<p>amicus, -i (m) / amica, -ae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "QjxEVg:;z3",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>coffee</p>",
+                "<p>caffea, -ae</p>"
+            ],
+            "flags": 0,
+            "guid": "D6GXSq0me6",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>tea</p>",
+                "<p>thea, -ae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "B}o3pp:3-S",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>milk</p>",
+                "<p>lac, lactis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "c!]t)<RbaM",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>my</p>",
+                "<p>meus, mea, meum</p>"
+            ],
+            "flags": 0,
+            "guid": "qzT(,^<2K;",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>our</p>",
+                "<p>noster, nostra, nostrum</p>"
+            ],
+            "flags": 0,
+            "guid": "LMS7Et,l~8",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>your</p>",
+                "<p>tuus, tua, tuum</p>"
+            ],
+            "flags": 0,
+            "guid": "h<u~*3d5:)",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>y'alls</p>",
+                "<p>vester, vestra, vestrum</p>"
+            ],
+            "flags": 0,
+            "guid": "so@Qo)mL]b",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>their, his, her</p>",
+                "<p>suus, sua, suum</p>"
+            ],
+            "flags": 0,
+            "guid": "C72d$M+K$K",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>many</p>",
+                "<p>multā</p>"
+            ],
+            "flags": 0,
+            "guid": "GTtsJ+Gp8^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>few</p>",
+                "<p>paucā</p>"
+            ],
+            "flags": 0,
+            "guid": "lDJf}8@CPF",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>all</p>",
+                "<p>omnis, omne</p>"
+            ],
+            "flags": 0,
+            "guid": "ejPwvP3T|0",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>none</p>",
+                "<p>nullus, nulla, nullum</p>"
+            ],
+            "flags": 0,
+            "guid": "Na..yrdx8&",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>new</p>",
+                "<p>novus, nova, novum</p>"
+            ],
+            "flags": 0,
+            "guid": ")o./Y}:mO",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>old</p>",
+                "<p>vetus, veteris </p>"
+            ],
+            "flags": 0,
+            "guid": "l@:k)<.!pR",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>young person</p>",
+                "<p>iuvenis</p>"
+            ],
+            "flags": 0,
+            "guid": "o%oZAM``b|",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>old man</p>",
+                "<p>senex, senis(m)</p>"
+            ],
+            "flags": 0,
+            "guid": "e^93BO]&~.",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>old woman</p>",
+                "<p>anus, anās (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "A;5h,d&={B",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bigger, more</p>",
+                "<p>maior, maius</p>"
+            ],
+            "flags": 0,
+            "guid": "B}w..9LX#(",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>smaller, less</p>",
+                "<p>minor, minus</p>"
+            ],
+            "flags": 0,
+            "guid": "zMH#&$/B,^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>better</p>",
+                "<p>melior, melius</p>"
+            ],
+            "flags": 0,
+            "guid": "N.QSH=B]sR",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>worse</p>",
+                "<p>peior, peius</p>"
+            ],
+            "flags": 0,
+            "guid": "Jpsd|+nV~G",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>week</p>",
+                "<p>hebdomas, hebdomadis (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "AwbP1{p%LB",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>month</p>",
+                "<p>mēnsis, mēnsis (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "ml-:%bQ1?[",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>year</p>",
+                "<p>annus, annā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "qepJvc/*11",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>always</p>",
+                "<p>semper</p>"
+            ],
+            "flags": 0,
+            "guid": "k?5S8izUdX",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>never</p>",
+                "<p>numquam</p>"
+            ],
+            "flags": 0,
+            "guid": "PK&,D(]&lN",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>sometimes</p>",
+                "<p>interdum</p>"
+            ],
+            "flags": 0,
+            "guid": "s>sOZLtR[%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>often</p>",
+                "<p>saepe</p>"
+            ],
+            "flags": 0,
+            "guid": "o+gJq)#?UA",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>once</p>",
+                "<p>semel</p>"
+            ],
+            "flags": 0,
+            "guid": "xLhK/vG3kv",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>twice</p>",
+                "<p>bis</p>"
+            ],
+            "flags": 0,
+            "guid": "goE$agFG0@",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>soon</p>",
+                "<p>mox</p>"
+            ],
+            "flags": 0,
+            "guid": "ODaTT2L/`S",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>enough</p>",
+                "<p>satis</p>"
+            ],
+            "flags": 0,
+            "guid": "nN<.^FuJT.",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>only</p>",
+                "<p>tantum / modo / solum</p>"
+            ],
+            "flags": 0,
+            "guid": "rNE$|Dr*[`",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>already</p>",
+                "<p>iam</p>"
+            ],
+            "flags": 0,
+            "guid": "o4?/MiWI:|",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>nothing</p>",
+                "<p>nihil</p>"
+            ],
+            "flags": 0,
+            "guid": "AU(Ybc2vVg",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>something</p>",
+                "<p>aliquid</p>"
+            ],
+            "flags": 0,
+            "guid": "xpQ*L*Hg7A",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to ask</p>",
+                "<p>rogāre</p>"
+            ],
+            "flags": 0,
+            "guid": "J`Cts0)e$|",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to answer</p>",
+                "<p>respondere</p>"
+            ],
+            "flags": 0,
+            "guid": "h1)N,C`:zv",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to tell</p>",
+                "<p>narrāre</p>"
+            ],
+            "flags": 0,
+            "guid": "tda[*Lb4In",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to give</p>",
+                "<p>dāre</p>"
+            ],
+            "flags": 0,
+            "guid": "n>Ef.>_%{4",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to dwell</p>",
+                "<p>habitāre</p>"
+            ],
+            "flags": 0,
+            "guid": "LeV.Vhd=Ih",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to be alive</p>",
+                "<p>vāvere</p>"
+            ],
+            "flags": 0,
+            "guid": "CN(L|UqT!N",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to come</p>",
+                "<p>venāre</p>"
+            ],
+            "flags": 0,
+            "guid": "n(IGDmuPaU",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to see</p>",
+                "<p>vidēre</p>"
+            ],
+            "flags": 0,
+            "guid": "Of7jp1Y`}m",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to hear</p>",
+                "<p>audāre</p>"
+            ],
+            "flags": 0,
+            "guid": "LJF~~=LVIV",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to undestand</p>",
+                "<p>intellegere</p>"
+            ],
+            "flags": 0,
+            "guid": "td.ZU[v%3T",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to take</p>",
+                "<p>capere</p>"
+            ],
+            "flags": 0,
+            "guid": "E{t.6$o;B9",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to use</p>",
+                "<p>ātā</p>"
+            ],
+            "flags": 0,
+            "guid": "tGF^Kl=(GY",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to leave</p>",
+                "<p>discēdere</p>"
+            ],
+            "flags": 0,
+            "guid": "Nm9=i6Xgxo",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>neighbor</p>",
+                "<p>vācinus, vācinā (m) / vācāna, vācānae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "cXr>.58!4n",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bed</p>",
+                "<p>lectus, -i (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "B_Kq[KU-z)",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>bedroom</p>",
+                "<p>cubiculum, -i (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "b7Lz.fayU;",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>book</p>",
+                "<p>liber, librā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "Pmb@_2&&%f",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>paper</p>",
+                "<p>charta, chartae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "uV25OWU:h.",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>pen</p>",
+                "<p>calamus, calamā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "eN;8Lw~hhE",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>car</p>",
+                "<p>raeda, raedae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "JM|SxhC.DF",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>school</p>",
+                "<p>schola, scholae (f) </p>"
+            ],
+            "flags": 0,
+            "guid": "s.u5tY>H0k",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>job</p>",
+                "<p>quaestus, quaestās (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "v{Z>ER-GeH",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>building</p>",
+                "<p>aedificium, aedificiā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "d{Q}Fi&{nf",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>window</p>",
+                "<p>fenestra, fenestrae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "h1#/5Iw9w:",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>kitchen</p>",
+                "<p>culāna, culānae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "CashdpL+96",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>door</p>",
+                "<p>iānua, iānuae, (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "PhKlbdaYW7",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>room</p>",
+                "<p>conclāve, conclāvis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "uOH|nMO1ko",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>phone</p>",
+                "<p>telephonum, telephonā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "rS_XTq7${X",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>money</p>",
+                "<p>pecunia, pecuniae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "y(YI}d@qwl",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>plate</p>",
+                "<p>patina, patinae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "gUmhVlC}EZ",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>glass</p>",
+                "<p>pāculum, pāculā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "o]U;1=;2>+",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>cup</p>",
+                "<p>poculum, poculā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "uZ69NjwihH",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>napkin</p>",
+                "<p>mappa, mappae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "GSfyeBo9%1",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>fork</p>",
+                "<p>furcilla, furcillae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "gjS%,J3)xM",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>knife</p>",
+                "<p>cultellus, cultellā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "t?9h<P1r.K",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>spoon</p>",
+                "<p>cochlear, cochlearis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "m3-e#_1}|!",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>fast</p>",
+                "<p>celer, celere</p>"
+            ],
+            "flags": 0,
+            "guid": "vV%Y3$#D`D",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>slow</p>",
+                "<p>lentus, lenta, lentum</p>"
+            ],
+            "flags": 0,
+            "guid": "oZg_2/[&4q",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>excellent</p>",
+                "<p>optimus, optima, optimum</p>"
+            ],
+            "flags": 0,
+            "guid": "MY|/T^g<HB",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>afraid</p>",
+                "<p>timidus, timida, timidum</p>"
+            ],
+            "flags": 0,
+            "guid": "vcJ}@CQ5J}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>busy</p>",
+                "<p>occupātus, occupāta, occupātum</p>"
+            ],
+            "flags": 0,
+            "guid": "IO(]s<yG_z",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>angry</p>",
+                "<p>ārātus, ārāta, ārātum</p>"
+            ],
+            "flags": 0,
+            "guid": "k^6%,zI}C;",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>ready</p>",
+                "<p>parātus, parāta, parātum</p>"
+            ],
+            "flags": 0,
+            "guid": "kI;2cSBd;%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Sunday</p>",
+                "<p> dominica, dominicae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "i6_hD0LG_@",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Monday</p>",
+                "<p>diēs Lānae</p>"
+            ],
+            "flags": 0,
+            "guid": "L,1Vs,3L3[",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Tuesday</p>",
+                "<p>diēs Martis</p>"
+            ],
+            "flags": 0,
+            "guid": "GdQIgM`0N2",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Wednesday</p>",
+                "<p>diēs Mercuriā</p>"
+            ],
+            "flags": 0,
+            "guid": "p[Sysn].bL",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Thursday</p>",
+                "<p>diēs Iovis</p>"
+            ],
+            "flags": 0,
+            "guid": "i1+TlvPilF",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Friday</p>",
+                "<p>diēs Veneris</p>"
+            ],
+            "flags": 0,
+            "guid": "8bGFaDt#(",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>Saturday</p>",
+                "<p>sabbata, sabbatārum (n. pl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "rTI~1{t.@G",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>under</p>",
+                "<p>sub (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "Lv^Bh#@`WM",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>over</p>",
+                "<p>super (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "w$a6kPV}Zc",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>next to</p>",
+                "<p>iāxtā (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "s/&,Z|UI&R",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>than</p>",
+                "<p>quam</p>"
+            ],
+            "flags": 0,
+            "guid": "mx?{*1X2++",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>inside</p>",
+                "<p>intrā (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "x#Wf}ef]*H",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>outside</p>",
+                "<p>extrā (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "HdSr4]K>ja",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I make</p>",
+                "<p>faciā</p>"
+            ],
+            "flags": 0,
+            "guid": "QE{#j|Ju?c",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to enter</p>",
+                "<p>intrāre</p>"
+            ],
+            "flags": 0,
+            "guid": "Ap7C]HCluF",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to go out</p>",
+                "<p>exāre</p>"
+            ],
+            "flags": 0,
+            "guid": "Ioy)G$v5*%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to read</p>",
+                "<p>legere</p>"
+            ],
+            "flags": 0,
+            "guid": "k]bzC]M*`)",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to write</p>",
+                "<p>scrābere</p>"
+            ],
+            "flags": 0,
+            "guid": "lqPNl^pM^}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to watch, to look at</p>",
+                "<p>aspicere</p>"
+            ],
+            "flags": 0,
+            "guid": "vfS,>|6![#",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to sit</p>",
+                "<p>sedēre</p>"
+            ],
+            "flags": 0,
+            "guid": "P[6/]r:HEg",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to stand</p>",
+                "<p>stāre</p>"
+            ],
+            "flags": 0,
+            "guid": "x+f-=JCfO9",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to forget</p>",
+                "<p>obliviscā (+ gen. of thing forgotten)</p>"
+            ],
+            "flags": 0,
+            "guid": "k*:-)yNK~^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to remember</p>",
+                "<p>meminisse (+ gen. of thing remembered)</p>"
+            ],
+            "flags": 0,
+            "guid": "QxqS7:PZ(Z",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to find</p>",
+                "<p>invenāre</p>"
+            ],
+            "flags": 0,
+            "guid": "zP1uC:e%!2",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to lose</p>",
+                "<p>perdere</p>"
+            ],
+            "flags": 0,
+            "guid": "pQi+ED=_5?",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to bring</p>",
+                "<p>afferre</p>"
+            ],
+            "flags": 0,
+            "guid": "N:L(I(H?6V",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>yet, still</p>",
+                "<p>adhāc</p>"
+            ],
+            "flags": 0,
+            "guid": "r<vrhBN@D6",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>each</p>",
+                "<p>quisque, quaeque, quodque</p>"
+            ],
+            "flags": 0,
+            "guid": "pDvpUL=8op",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>every</p>",
+                "<p>omnis, omne</p>"
+            ],
+            "flags": 0,
+            "guid": "v7@NT#HRSG",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>before</p>",
+                "<p>ante (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "F]Q<V;&N3t",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>after</p>",
+                "<p>post (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "gn*/G1yM~:",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>near</p>",
+                "<p>prope (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "r(_eGpW/:%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>far</p>",
+                "<p>procul (ā/ab + abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "N]n8uC$PKf",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>during</p>",
+                "<p>inter (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "j6wQ(&v/e5",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>probably</p>",
+                "<p>probabiliter</p>"
+            ],
+            "flags": 0,
+            "guid": "zD#=J#61SD",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>question</p>",
+                "<p>quaestio, quaestionis (f) </p>"
+            ],
+            "flags": 0,
+            "guid": "O@oT^.*C]v",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>answer</p>",
+                "<p>responsum, responsā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "g7TS9hLL8W",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>city</p>",
+                "<p>urbs, urbis, (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "s,gIiEfyT^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>street</p>",
+                "<p>via, viae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "tT^u*VYC*R",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>light</p>",
+                "<p>lumen, luminis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "Rg}zm0_y{i",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>mail</p>",
+                "<p>litterae, litterārum (f. pl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "K3Cj]QndCe",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>letter</p>",
+                "<p>epistula, epistulae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "p|ptadLXO~",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>airplane</p>",
+                "<p>āeÃàroplanum, āeÃàroplanā (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "jDgft6k~#P",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>pepper</p>",
+                "<p>piper, piperis (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "MWK,qVX.n{",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>salt</p>",
+                "<p>sāl, salis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "o@OL0gi_[A",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>meat</p>",
+                "<p>carā, carnis (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "c5lesPRp6=",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>potato</p>",
+                "<p>pomum terrestre, pomā terrestris (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "tk5I[SAebH",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>vegetable</p>",
+                "<p>holus, holeris (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "l@>>WO#|w%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>fruit</p>",
+                "<p>fructus, fructās (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "r[xm8jK_E,",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>beef</p>",
+                "<p>bābula, bābulae (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "fvSP)rMw&>",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>chicken (as animal)</p>",
+                "<p>pullus, pullā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "FbnL#$MH-J",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>chicken (as food)</p>",
+                "<p> gallinacea, gallinaceae (f) </p>"
+            ],
+            "flags": 0,
+            "guid": "ixd0z[GvU?",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>fish (as animal)</p>",
+                "<p>piscis, piscis (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "uEC2610*u<",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>fish (as food)</p>",
+                "<p>piscātus, piscātās (m) </p>"
+            ],
+            "flags": 0,
+            "guid": "paza7Q0j)4",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>important</p>",
+                "<p>magnā</p>"
+            ],
+            "flags": 0,
+            "guid": "J*ZfMLt;y4",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>different</p>",
+                "<p>diversus, diversa, diversum</p>"
+            ],
+            "flags": 0,
+            "guid": "xsQ{u-n0bD",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>hot</p>",
+                "<p>calidus, calida, calidum</p>"
+            ],
+            "flags": 0,
+            "guid": "hBuDjG5d>8",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>cold</p>",
+                "<p>frigidus, frigida, frigidum</p>"
+            ],
+            "flags": 0,
+            "guid": "GP,=z;$=An",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>necessary</p>",
+                "<p>necessarius, necessaria, necessarium</p>"
+            ],
+            "flags": 0,
+            "guid": "uE#G&odHk5",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>difficult</p>",
+                "<p>difficilis, difficile</p>"
+            ],
+            "flags": 0,
+            "guid": "hyIh}>Cb/V",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>easy</p>",
+                "<p>facilis, facile</p>"
+            ],
+            "flags": 0,
+            "guid": "i1]*c<%_)b",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>same</p>",
+                "<p>ādem, eadem, idem</p>"
+            ],
+            "flags": 0,
+            "guid": "BWvvU,v6t(",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>possible</p>",
+                "<p>possibilis, possibile</p>"
+            ],
+            "flags": 0,
+            "guid": "u,qwlBm+B1",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>impossible</p>",
+                "<p>impossibilis, impossibile</p>"
+            ],
+            "flags": 0,
+            "guid": "EkVm{[FMl{",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>early</p>",
+                "<p>maturus, matura, maturum</p>"
+            ],
+            "flags": 0,
+            "guid": "f<@AGBxw{V",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>late</p>",
+                "<p>tardus, tarda, tardum</p>"
+            ],
+            "flags": 0,
+            "guid": "n,Uq`f3pnP",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>clean</p>",
+                "<p>mundus, munda, mundum</p>"
+            ],
+            "flags": 0,
+            "guid": "L{bf^.}Z(C",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>dirty</p>",
+                "<p>immundus, immunda, immundum</p>"
+            ],
+            "flags": 0,
+            "guid": "O[p}i}36A/",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>smart</p>",
+                "<p>intelligens, intelligentis</p>"
+            ],
+            "flags": 0,
+            "guid": "mPKNk=j<fR",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>stupid</p>",
+                "<p>stultus, stulta, stultum</p>"
+            ],
+            "flags": 0,
+            "guid": "jvH,mu=(;]",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>other</p>",
+                "<p>alius, alia, alium</p>"
+            ],
+            "flags": 0,
+            "guid": "INKy1!5l@^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>next</p>",
+                "<p>proximus, proxima, proximum</p>"
+            ],
+            "flags": 0,
+            "guid": "rKBGC=WxH#",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>last</p>",
+                "<p>ultimus, ultima, ultimum</p>"
+            ],
+            "flags": 0,
+            "guid": "eEym8>1i8M",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>wrong</p>",
+                "<p>falsus, falsa, falsum</p>"
+            ],
+            "flags": 0,
+            "guid": "b~i%%W2},K",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>between</p>",
+                "<p>inter (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "Nu^395KJpe",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>about</p>",
+                "<p>de (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "In0H@Aqn8Y",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>until</p>",
+                "<p>usque ad ( +acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "fEStVT9m2$",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>around</p>",
+                "<p> circā (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "p42B]1pFv|",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>without</p>",
+                "<p>sine (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "Fh-u0=9zKD",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>behind</p>",
+                "<p>post (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "n?!6+Ukqo=",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>in front of </p>",
+                "<p>ante (+ acc.) / prā (+ abl)</p>"
+            ],
+            "flags": 0,
+            "guid": "JU{uRY*QrB",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>against</p>",
+                "<p>contrā (+ acc.)</p>"
+            ],
+            "flags": 0,
+            "guid": "fNck<o]{#5",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>instead of</p>",
+                "<p>prā (+ abl.)</p>"
+            ],
+            "flags": 0,
+            "guid": "fO1@f!QmR0",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>immediately</p>",
+                "<p>statim</p>"
+            ],
+            "flags": 0,
+            "guid": "n/Nqeur=l7",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>both</p>",
+                "<p>ambā, ambae, ambā</p>"
+            ],
+            "flags": 0,
+            "guid": "HjETf.$>R)",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>finally</p>",
+                "<p>tandem</p>"
+            ],
+            "flags": 0,
+            "guid": "mk|vc0{T+`",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>almost</p>",
+                "<p>paene</p>"
+            ],
+            "flags": 0,
+            "guid": "gU@`GpGKW",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>however</p>",
+                "<p>tamen</p>"
+            ],
+            "flags": 0,
+            "guid": "iRK,(T[bPE",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>like</p>",
+                "<p>similis, simile (+ gen)</p>"
+            ],
+            "flags": 0,
+            "guid": "qW#i2w3yG_",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>suddenly</p>",
+                "<p>subito</p>"
+            ],
+            "flags": 0,
+            "guid": "l<6-[&$<3}",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>too (much)</p>",
+                "<p>nimis (+ gen.)</p>"
+            ],
+            "flags": 0,
+            "guid": "cLIC3_.qg^",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>so, thus</p>",
+                "<p>ita</p>"
+            ],
+            "flags": 0,
+            "guid": "GqsWw^6P=k",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>body</p>",
+                "<p>corpus, corporis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "B9|tJ/2OQv",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>head</p>",
+                "<p>caput, capitis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "I%7;AIYy7z",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>hand</p>",
+                "<p>manus, manās (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "yM_}K/nsqd",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>eye</p>",
+                "<p>oculus, oculā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "z~Z[`G+2mb",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>ear</p>",
+                "<p>auris, auris (f)</p>"
+            ],
+            "flags": 0,
+            "guid": "tu;CospAiA",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>mouth</p>",
+                "<p>os, oris (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "EFkV@mpBfz",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>stomach</p>",
+                "<p>stomachus, stomachā (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "r<8eXnql}+",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>foot</p>",
+                "<p>pēs, pedis (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "BT,JWT/{z!",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>heart</p>",
+                "<p>cor, cordis (n)</p>"
+            ],
+            "flags": 0,
+            "guid": "K%nF.OFNp=",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>color</p>",
+                "<p>color, coloris (m)</p>"
+            ],
+            "flags": 0,
+            "guid": "k|Z;;j*0)y",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>white</p>",
+                "<p>albus, alba, album</p>"
+            ],
+            "flags": 0,
+            "guid": "quAG:YzSC=",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>red</p>",
+                "<p>ruber, rubra, rubrum</p>"
+            ],
+            "flags": 0,
+            "guid": "Dj%#x-dLk1",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>blue</p>",
+                "<p>caeruleus, caerulea, caeruleum</p>"
+            ],
+            "flags": 0,
+            "guid": "fJ47v%[TUq",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>green</p>",
+                "<p>viridis, viride</p>"
+            ],
+            "flags": 0,
+            "guid": "f6$$euhhBp",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>yellow</p>",
+                "<p>flavus, flava, flavum</p>"
+            ],
+            "flags": 0,
+            "guid": "C,ihU#vVQ]",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>I give</p>",
+                "<p>dā</p>"
+            ],
+            "flags": 0,
+            "guid": "x)D0I@:~Fv",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to love</p>",
+                "<p>amāre</p>"
+            ],
+            "flags": 0,
+            "guid": "BZ7UfVZ)R%",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to send </p>",
+                "<p>mittere</p>"
+            ],
+            "flags": 0,
+            "guid": "gN#WWZxCUt",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to teach</p>",
+                "<p>docēre</p>"
+            ],
+            "flags": 0,
+            "guid": "kpTZ%_/]<~",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to learn</p>",
+                "<p>discere</p>"
+            ],
+            "flags": 0,
+            "guid": "lC+}gaBi0f",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to help </p>",
+                "<p>adiuvāre</p>"
+            ],
+            "flags": 0,
+            "guid": "y->W^,J,*r",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to look for</p>",
+                "<p>quaerere</p>"
+            ],
+            "flags": 0,
+            "guid": "s@*1$J:Jvr",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to work</p>",
+                "<p>laborāre</p>"
+            ],
+            "flags": 0,
+            "guid": "n[g]7dYOnq",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to carry</p>",
+                "<p>portāre</p>"
+            ],
+            "flags": 0,
+            "guid": "kg=F3dja|",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to yell</p>",
+                "<p>clamāre</p>"
+            ],
+            "flags": 0,
+            "guid": "egZ{DqCs,+",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to study</p>",
+                "<p>studiāre</p>"
+            ],
+            "flags": 0,
+            "guid": "F434E:DkyE",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to hope</p>",
+                "<p>sperāre</p>"
+            ],
+            "flags": 0,
+            "guid": "x/7[tG?+ln",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to try</p>",
+                "<p>temptāre</p>"
+            ],
+            "flags": 0,
+            "guid": "vy7>Jm#?kc",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<p>to sleep</p>",
+                "<p>dormāre</p>"
+            ],
+            "flags": 0,
+            "guid": "p|oMyiCKpg",
+            "note_model_uuid": "3073b59a-d55f-11e9-a89b-8c859041a86d",
+            "tags": []
+        }
+    ]
+}
