@@ -7,7 +7,7 @@
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "20817018-dd3c-11e9-a90f-8c859041a86d",
+            "crowdanki_uuid": "d43a28e8-d8e7-11e9-acec-8c859041a86d",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -19,8 +19,12 @@
                 "mult": 0.0
             },
             "maxTaken": 60,
-            "name": "Slow",
+            "name": "Conversational Latin",
             "new": {
+                "LBEIMinAfter": 4,
+                "LBEIMinBefore": 4,
+                "LBGIMinAfter": 1,
+                "LBGIMinBefore": 1,
                 "bury": false,
                 "delays": [
                     1,
@@ -33,7 +37,7 @@
                     7
                 ],
                 "order": 1,
-                "perDay": 2,
+                "perDay": 0,
                 "separate": true
             },
             "replayq": true,
@@ -156,7 +160,7 @@
             "data": "",
             "fields": [
                 "<p>Please</p>",
-                "<p>sā vās</p>"
+                "<p>sī vīs</p>"
             ],
             "flags": 0,
             "guid": "NX:cJ1sPi.",
@@ -204,7 +208,7 @@
             "data": "",
             "fields": [
                 "<p>Yes</p>",
-                "<p> ita verā</p>"
+                "<p> ita verō</p>"
             ],
             "flags": 0,
             "guid": "Nt-#>3BVl@",
@@ -240,7 +244,7 @@
             "data": "",
             "fields": [
                 "<p>Please speak more slowly.</p>",
-                "<p>quaesā, dāc lentius.</p>"
+                "<p>quaesō, dīc lentius.</p>"
             ],
             "flags": 0,
             "guid": "hN-5/}BNkZ",
@@ -264,7 +268,7 @@
             "data": "",
             "fields": [
                 "<p>I'm sorry, but I don't understand.</p>",
-                "<p>mē paenitet, sed nān intellegā.</p>"
+                "<p>mē paenitet, sed nōn intellegō.</p>"
             ],
             "flags": 0,
             "guid": "zVi4#;P2Aj",
@@ -276,7 +280,7 @@
             "data": "",
             "fields": [
                 "<p>How do you say it in Latin?</p>",
-                "<p>quāmodo id dācis in Latinā?</p>"
+                "<p>quōmodo id dīcis in Latinā?</p>"
             ],
             "flags": 0,
             "guid": "lx|H$fX^f}",
@@ -312,7 +316,7 @@
             "data": "",
             "fields": [
                 "<p>I need</p>",
-                "<p>desāderā</p>"
+                "<p>desīderō</p>"
             ],
             "flags": 0,
             "guid": "Ff#n_Wk5%o",
@@ -324,7 +328,7 @@
             "data": "",
             "fields": [
                 "<p>I want</p>",
-                "<p>volā</p>"
+                "<p>volō</p>"
             ],
             "flags": 0,
             "guid": "mIc^_&8QEx",
@@ -336,7 +340,7 @@
             "data": "",
             "fields": [
                 "<p>I go</p>",
-                "<p>eā</p>"
+                "<p>eō</p>"
             ],
             "flags": 0,
             "guid": "f$7u$[CE<,",
@@ -348,7 +352,7 @@
             "data": "",
             "fields": [
                 "<p>I know</p>",
-                "<p>sciā</p>"
+                "<p>sciō</p>"
             ],
             "flags": 0,
             "guid": "h9?:Cef,t3",
@@ -360,7 +364,7 @@
             "data": "",
             "fields": [
                 "<p>I think</p>",
-                "<p>credā</p>"
+                "<p>credō</p>"
             ],
             "flags": 0,
             "guid": "oG7$3YX~8z",
@@ -384,7 +388,7 @@
             "data": "",
             "fields": [
                 "<p>It was nice to meet you.</p>",
-                "<p>bellē tē cognāscere fuit.</p>"
+                "<p>bellē tē cognōscere fuit.</p>"
             ],
             "flags": 0,
             "guid": "EKaF-e_ytE",
@@ -420,7 +424,7 @@
             "data": "",
             "fields": [
                 "<p>So-so</p>",
-                "<p>sāc tenuiter</p>"
+                "<p>sīc tenuiter</p>"
             ],
             "flags": 0,
             "guid": "v}{V7&KpkC",
@@ -456,7 +460,7 @@
             "data": "",
             "fields": [
                 "<p>What time is it?</p>",
-                "<p>quota hāra est?</p>"
+                "<p>quota hōra est?</p>"
             ],
             "flags": 0,
             "guid": "GWv8X_B6}I",
@@ -492,7 +496,7 @@
             "data": "",
             "fields": [
                 "<p>bathroom</p>",
-                "<p>lātrāna, -ae (f)</p>"
+                "<p>lātrīna, -ae (f)</p>"
             ],
             "flags": 0,
             "guid": "m9OyE>y,1-",
@@ -516,7 +520,7 @@
             "data": "",
             "fields": [
                 "<p>drink</p>",
-                "<p>pātus, -ās (m)</p>"
+                "<p>pōtus, -īs (m)</p>"
             ],
             "flags": 0,
             "guid": "o]<i>2m,s}",
@@ -624,7 +628,7 @@
             "data": "",
             "fields": [
                 "<p>left</p>",
-                "<p>dextrā</p>"
+                "<p>sinister</p>"
             ],
             "flags": 0,
             "guid": "e9F)id-4C0",
@@ -672,7 +676,7 @@
             "data": "",
             "fields": [
                 "<p>day</p>",
-                "<p>diēs, dieā</p>"
+                "<p>diēs, dieī</p>"
             ],
             "flags": 0,
             "guid": "G4q{#elY/@",
@@ -708,7 +712,7 @@
             "data": "",
             "fields": [
                 "<p>afternoon</p>",
-                "<p>post merādiem</p>"
+                "<p>post merīdiem</p>"
             ],
             "flags": 0,
             "guid": "K)sM89SeeA",
@@ -720,7 +724,7 @@
             "data": "",
             "fields": [
                 "<p>evening</p>",
-                "<p>vesper, vesperā (m)</p>"
+                "<p>vesper, vesperī (m)</p>"
             ],
             "flags": 0,
             "guid": "E1>Qs3#=U4",
@@ -792,7 +796,7 @@
             "data": "",
             "fields": [
                 "<p>when</p>",
-                "<p>quandā</p>"
+                "<p>quandō</p>"
             ],
             "flags": 0,
             "guid": "j?$B~C%zqn",
@@ -804,7 +808,7 @@
             "data": "",
             "fields": [
                 "<p>how</p>",
-                "<p>quāmodo</p>"
+                "<p>quōmodo</p>"
             ],
             "flags": 0,
             "guid": "I*He>kLAb+",
@@ -948,7 +952,7 @@
             "data": "",
             "fields": [
                 "<p>for</p>",
-                "<p>prā (+ abl.)</p>"
+                "<p>prō (+ abl.)</p>"
             ],
             "flags": 0,
             "guid": "NMxQRp*Gh#",
@@ -1068,7 +1072,7 @@
             "data": "",
             "fields": [
                 "<p>husband</p>",
-                "<p>marātus, -i (m)</p>"
+                "<p>marītus, -i (m)</p>"
             ],
             "flags": 0,
             "guid": "Pl27&oq~G>",
@@ -1224,7 +1228,7 @@
             "data": "",
             "fields": [
                 "<p>many</p>",
-                "<p>multā</p>"
+                "<p>multī</p>"
             ],
             "flags": 0,
             "guid": "GTtsJ+Gp8^",
@@ -1236,7 +1240,7 @@
             "data": "",
             "fields": [
                 "<p>few</p>",
-                "<p>paucā</p>"
+                "<p>paucī</p>"
             ],
             "flags": 0,
             "guid": "lDJf}8@CPF",
@@ -1320,7 +1324,7 @@
             "data": "",
             "fields": [
                 "<p>old woman</p>",
-                "<p>anus, anās (f)</p>"
+                "<p>anus, anīs (f)</p>"
             ],
             "flags": 0,
             "guid": "A;5h,d&={B",
@@ -1404,7 +1408,7 @@
             "data": "",
             "fields": [
                 "<p>year</p>",
-                "<p>annus, annā (m)</p>"
+                "<p>annus, annī (m)</p>"
             ],
             "flags": 0,
             "guid": "qepJvc/*11",
@@ -1620,7 +1624,7 @@
             "data": "",
             "fields": [
                 "<p>to be alive</p>",
-                "<p>vāvere</p>"
+                "<p>vīvere</p>"
             ],
             "flags": 0,
             "guid": "CN(L|UqT!N",
@@ -1632,7 +1636,7 @@
             "data": "",
             "fields": [
                 "<p>to come</p>",
-                "<p>venāre</p>"
+                "<p>venīre</p>"
             ],
             "flags": 0,
             "guid": "n(IGDmuPaU",
@@ -1656,7 +1660,7 @@
             "data": "",
             "fields": [
                 "<p>to hear</p>",
-                "<p>audāre</p>"
+                "<p>audīre</p>"
             ],
             "flags": 0,
             "guid": "LJF~~=LVIV",
@@ -1692,7 +1696,7 @@
             "data": "",
             "fields": [
                 "<p>to use</p>",
-                "<p>ātā</p>"
+                "<p>ūtī</p>"
             ],
             "flags": 0,
             "guid": "tGF^Kl=(GY",
@@ -1716,7 +1720,7 @@
             "data": "",
             "fields": [
                 "<p>neighbor</p>",
-                "<p>vācinus, vācinā (m) / vācāna, vācānae (f)</p>"
+                "<p>vīcinus, vīcinī (m) / vīcīna, vīcīnae (f)</p>"
             ],
             "flags": 0,
             "guid": "cXr>.58!4n",
@@ -1752,7 +1756,7 @@
             "data": "",
             "fields": [
                 "<p>book</p>",
-                "<p>liber, librā (m)</p>"
+                "<p>liber, librī (m)</p>"
             ],
             "flags": 0,
             "guid": "Pmb@_2&&%f",
@@ -1776,7 +1780,7 @@
             "data": "",
             "fields": [
                 "<p>pen</p>",
-                "<p>calamus, calamā (m)</p>"
+                "<p>calamus, calamī (m)</p>"
             ],
             "flags": 0,
             "guid": "eN;8Lw~hhE",
@@ -1812,7 +1816,7 @@
             "data": "",
             "fields": [
                 "<p>job</p>",
-                "<p>quaestus, quaestās (m)</p>"
+                "<p>quaestus, quaestīs (m)</p>"
             ],
             "flags": 0,
             "guid": "v{Z>ER-GeH",
@@ -1824,7 +1828,7 @@
             "data": "",
             "fields": [
                 "<p>building</p>",
-                "<p>aedificium, aedificiā (n)</p>"
+                "<p>aedificium, aedificiī (n)</p>"
             ],
             "flags": 0,
             "guid": "d{Q}Fi&{nf",
@@ -1848,7 +1852,7 @@
             "data": "",
             "fields": [
                 "<p>kitchen</p>",
-                "<p>culāna, culānae (f)</p>"
+                "<p>culīna, culīnae (f)</p>"
             ],
             "flags": 0,
             "guid": "CashdpL+96",
@@ -1884,7 +1888,7 @@
             "data": "",
             "fields": [
                 "<p>phone</p>",
-                "<p>telephonum, telephonā (n)</p>"
+                "<p>telephonum, telephonī (n)</p>"
             ],
             "flags": 0,
             "guid": "rS_XTq7${X",
@@ -1920,7 +1924,7 @@
             "data": "",
             "fields": [
                 "<p>glass</p>",
-                "<p>pāculum, pāculā (n)</p>"
+                "<p>pōculum, pōculī (n)</p>"
             ],
             "flags": 0,
             "guid": "o]U;1=;2>+",
@@ -1932,7 +1936,7 @@
             "data": "",
             "fields": [
                 "<p>cup</p>",
-                "<p>poculum, poculā (n)</p>"
+                "<p>poculum, poculī (n)</p>"
             ],
             "flags": 0,
             "guid": "uZ69NjwihH",
@@ -1968,7 +1972,7 @@
             "data": "",
             "fields": [
                 "<p>knife</p>",
-                "<p>cultellus, cultellā (m)</p>"
+                "<p>cultellus, cultellī (m)</p>"
             ],
             "flags": 0,
             "guid": "t?9h<P1r.K",
@@ -2052,7 +2056,7 @@
             "data": "",
             "fields": [
                 "<p>angry</p>",
-                "<p>ārātus, ārāta, ārātum</p>"
+                "<p>īrātus, īrāta, īrātum</p>"
             ],
             "flags": 0,
             "guid": "k^6%,zI}C;",
@@ -2088,7 +2092,7 @@
             "data": "",
             "fields": [
                 "<p>Monday</p>",
-                "<p>diēs Lānae</p>"
+                "<p>diēs Lūnae</p>"
             ],
             "flags": 0,
             "guid": "L,1Vs,3L3[",
@@ -2112,7 +2116,7 @@
             "data": "",
             "fields": [
                 "<p>Wednesday</p>",
-                "<p>diēs Mercuriā</p>"
+                "<p>diēs Mercuriī</p>"
             ],
             "flags": 0,
             "guid": "p[Sysn].bL",
@@ -2184,7 +2188,7 @@
             "data": "",
             "fields": [
                 "<p>next to</p>",
-                "<p>iāxtā (+ acc.)</p>"
+                "<p>iūxtā (+ acc.)</p>"
             ],
             "flags": 0,
             "guid": "s/&,Z|UI&R",
@@ -2232,7 +2236,7 @@
             "data": "",
             "fields": [
                 "<p>I make</p>",
-                "<p>faciā</p>"
+                "<p>faciō</p>"
             ],
             "flags": 0,
             "guid": "QE{#j|Ju?c",
@@ -2256,7 +2260,7 @@
             "data": "",
             "fields": [
                 "<p>to go out</p>",
-                "<p>exāre</p>"
+                "<p>exīre</p>"
             ],
             "flags": 0,
             "guid": "Ioy)G$v5*%",
@@ -2280,7 +2284,7 @@
             "data": "",
             "fields": [
                 "<p>to write</p>",
-                "<p>scrābere</p>"
+                "<p>scrībere</p>"
             ],
             "flags": 0,
             "guid": "lqPNl^pM^}",
@@ -2328,7 +2332,7 @@
             "data": "",
             "fields": [
                 "<p>to forget</p>",
-                "<p>obliviscā (+ gen. of thing forgotten)</p>"
+                "<p>obliviscāre (+ gen. of thing forgotten)</p>"
             ],
             "flags": 0,
             "guid": "k*:-)yNK~^",
@@ -2352,7 +2356,7 @@
             "data": "",
             "fields": [
                 "<p>to find</p>",
-                "<p>invenāre</p>"
+                "<p>invenīre</p>"
             ],
             "flags": 0,
             "guid": "zP1uC:e%!2",
@@ -2388,7 +2392,7 @@
             "data": "",
             "fields": [
                 "<p>yet, still</p>",
-                "<p>adhāc</p>"
+                "<p>adhūc</p>"
             ],
             "flags": 0,
             "guid": "r<vrhBN@D6",
@@ -2508,7 +2512,7 @@
             "data": "",
             "fields": [
                 "<p>answer</p>",
-                "<p>responsum, responsā (n)</p>"
+                "<p>responsum, responsī (n)</p>"
             ],
             "flags": 0,
             "guid": "g7TS9hLL8W",
@@ -2580,7 +2584,7 @@
             "data": "",
             "fields": [
                 "<p>airplane</p>",
-                "<p>āeÃàroplanum, āeÃàroplanā (n)</p>"
+                "<p>āeroplanum, āeroplanā (n)</p>"
             ],
             "flags": 0,
             "guid": "jDgft6k~#P",
@@ -2616,7 +2620,7 @@
             "data": "",
             "fields": [
                 "<p>meat</p>",
-                "<p>carā, carnis (f)</p>"
+                "<p>carō, carnis (f)</p>"
             ],
             "flags": 0,
             "guid": "c5lesPRp6=",
@@ -2628,7 +2632,7 @@
             "data": "",
             "fields": [
                 "<p>potato</p>",
-                "<p>pomum terrestre, pomā terrestris (n)</p>"
+                "<p>pomum terrestre, pomī terrestris (n)</p>"
             ],
             "flags": 0,
             "guid": "tk5I[SAebH",
@@ -2652,7 +2656,7 @@
             "data": "",
             "fields": [
                 "<p>fruit</p>",
-                "<p>fructus, fructās (m)</p>"
+                "<p>fructus, fructūs (m)</p>"
             ],
             "flags": 0,
             "guid": "r[xm8jK_E,",
@@ -2664,7 +2668,7 @@
             "data": "",
             "fields": [
                 "<p>beef</p>",
-                "<p>bābula, bābulae (f)</p>"
+                "<p>būbula, būbulae (f)</p>"
             ],
             "flags": 0,
             "guid": "fvSP)rMw&>",
@@ -2676,7 +2680,7 @@
             "data": "",
             "fields": [
                 "<p>chicken (as animal)</p>",
-                "<p>pullus, pullā (m)</p>"
+                "<p>pullus, pullī (m)</p>"
             ],
             "flags": 0,
             "guid": "FbnL#$MH-J",
@@ -2808,7 +2812,7 @@
             "data": "",
             "fields": [
                 "<p>same</p>",
-                "<p>ādem, eadem, idem</p>"
+                "<p>īdem, eadem, idem</p>"
             ],
             "flags": 0,
             "guid": "BWvvU,v6t(",
@@ -3036,7 +3040,7 @@
             "data": "",
             "fields": [
                 "<p>in front of </p>",
-                "<p>ante (+ acc.) / prā (+ abl)</p>"
+                "<p>ante (+ acc.) / prō (+ abl)</p>"
             ],
             "flags": 0,
             "guid": "JU{uRY*QrB",
@@ -3060,7 +3064,7 @@
             "data": "",
             "fields": [
                 "<p>instead of</p>",
-                "<p>prā (+ abl.)</p>"
+                "<p>prō (+ abl.)</p>"
             ],
             "flags": 0,
             "guid": "fO1@f!QmR0",
@@ -3084,7 +3088,7 @@
             "data": "",
             "fields": [
                 "<p>both</p>",
-                "<p>ambā, ambae, ambā</p>"
+                "<p>ambī, ambae, ambī</p>"
             ],
             "flags": 0,
             "guid": "HjETf.$>R)",
@@ -3204,7 +3208,7 @@
             "data": "",
             "fields": [
                 "<p>hand</p>",
-                "<p>manus, manās (f)</p>"
+                "<p>manus, manūs (f)</p>"
             ],
             "flags": 0,
             "guid": "yM_}K/nsqd",
@@ -3216,7 +3220,7 @@
             "data": "",
             "fields": [
                 "<p>eye</p>",
-                "<p>oculus, oculā (m)</p>"
+                "<p>oculus, oculī (m)</p>"
             ],
             "flags": 0,
             "guid": "z~Z[`G+2mb",
@@ -3252,7 +3256,7 @@
             "data": "",
             "fields": [
                 "<p>stomach</p>",
-                "<p>stomachus, stomachā (m)</p>"
+                "<p>stomachus, stomachī (m)</p>"
             ],
             "flags": 0,
             "guid": "r<8eXnql}+",
@@ -3360,7 +3364,7 @@
             "data": "",
             "fields": [
                 "<p>I give</p>",
-                "<p>dā</p>"
+                "<p>dō</p>"
             ],
             "flags": 0,
             "guid": "x)D0I@:~Fv",
@@ -3516,7 +3520,7 @@
             "data": "",
             "fields": [
                 "<p>to sleep</p>",
-                "<p>dormāre</p>"
+                "<p>dormīre</p>"
             ],
             "flags": 0,
             "guid": "p|oMyiCKpg",
